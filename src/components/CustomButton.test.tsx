@@ -25,6 +25,10 @@ describe("Easy Examples", () => {
     expect(2 - 2).toBe(0)
   })
 
+   test("50 + 50 equals 200", () => {
+    expect(50 + 50).toBe(200) // Purposely failing for assignment
+  })
+
 })
 
 // TODO - Custom Button component + State + Classname
